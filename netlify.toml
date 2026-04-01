@@ -1,0 +1,9 @@
+[build]
+  # Empty base directory means run from the root of the repository
+  base = ""
+  
+  # The command Netlify runs to build your project
+  command = "npm run build"
+  
+  # The folder Netlify should serve publicly after the build finishes
+  publish = "dist"
